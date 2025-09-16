@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { Button } from "@/components/ui/button";
 import { ChevronLeft, User } from "lucide-react";
 
 export const Header = () => {

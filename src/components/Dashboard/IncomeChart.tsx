@@ -22,10 +22,7 @@ interface IncomeChartProps {
   }>;
 }
 
-export const IncomeChart = ({
-  selectedPeriod,
-  chartData,
-}: IncomeChartProps) => {
+export const IncomeChart = ({ chartData }: IncomeChartProps) => {
   const formatCurrency = (value: number) => {
     return new Intl.NumberFormat("en-US", {
       style: "currency",
